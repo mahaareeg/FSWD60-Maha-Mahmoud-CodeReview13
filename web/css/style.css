@@ -1,0 +1,57 @@
+#indx{
+	width: 100%;
+	height: auto;
+}
+
+.navbar{
+	background-color: brown;
+	color: white;
+}
+h2{
+	width: 1300px;
+	height: 100px;
+	margin-top: 0px;
+	background-color: lightblue;
+	text-align: center;
+	font-weight: bold;
+	page-break-after: avoid;
+}
+
+.main{
+	width: 100%;
+	height: 300px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.main img{
+	width: 100%;
+	height: 300px;
+}
+
+#footer{
+	height: 80px;
+	background-color: brown;
+	color: white;
+	text-align: center;
+}
+
+#tab{
+	width: 1290px;
+	margin-top: 0px;
+}
+
+thead{
+	
+	background-color: blue;
+	color: white;
+	width: 90px;
+}
+#indo{
+	margin-top: 0px;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1300px;
+    
+  }
+}

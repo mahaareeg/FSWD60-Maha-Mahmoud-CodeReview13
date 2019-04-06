@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+       <a class="btn btn-default" href="/">Back</a>
+       <hr>
+       <h2 class="page-header">{{test1.name}}</h2>
+       <ul class="list-group">
+               
+            <li class="list-group-item">Date: <strong> {{test1.date|date('F j, Y, g:i a')}} </strong> </li> <li class="list-group-item">Description: {{test1.description}}</li>
+            <li class="list-group-item">Image: {{test1.image}}</li>
+               
+               <li class="list-group-item">Capacity: {{test1.capacity}}</li>
+               <li class="list-group-item">email: {{test1.email}}</li>
+               <li class="list-group-item">Phone: {{test1.phone}}</li>
+               <li class="list-group-item">Address: {{test1.address}}</li>
+               <li class="list-group-item">Url: {{test1.url}}</li>
+               <li class="list-group-item">Type: {{test1.type}}</li>
+       </ul>
+     <div class="main1">
+
+   <img src="{{test1.image}}" />
+
+</div>
+{% endblock %}
