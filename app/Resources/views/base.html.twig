@@ -7,13 +7,12 @@
 
 
    <title>{% block title %}Welcome to Big Events!{% endblock %}</title>
-   
-    
-    <!-- Bootstrap core CSS -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
    {% block stylesheets %}{% endblock %}
-       <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+       
    
       
  </head>
